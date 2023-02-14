@@ -1,7 +1,7 @@
 #define TEMPLATE_TESTS_H
 #include <cxxtest/TestSuite.h>
 
-#include "Classes.h"
+#include "ItemToPurchase.h"
 
 class newCxxTest : public CxxTest::TestSuite
 {
@@ -13,6 +13,5 @@ public:
     {
         // Use TS_ASSERT_EQUALS(Result, ExpResult) to test your functions.
         TS_ASSERT_EQUALS(1, 1); // This test will pass.
-        TS_ASSERT_EQUALS(1, 2); // This test will fail.
     }
 };
